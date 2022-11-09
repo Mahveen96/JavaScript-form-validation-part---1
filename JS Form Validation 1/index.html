@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo - JavaScript Form Validation</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <form id="signup" class="form">
+            <h1>Sign Up</h1>
+        <div class="formField">
+            <label for="username"> Username:</label>
+            <input type="text" name="username" id="username" autocomplete="off" placeholder="Enter your username">
+            <small></small>
+        </div>
+        <div class="formField">
+            <label for="email"> Email:</label>
+            <input type="email" name="email" id="email" autocomplete="off" placeholder="Enter your email address">
+            <small></small>
+        </div>
+        <div class="formField">
+            <label for="password"> Password:</label>
+            <input type="password" name="password" id="password" autocomplete="off" placeholder="Enter a strong password">
+            <small></small>
+        </div>
+        <div class="formField">
+            <label for="confirmPassword"> Confirm Password:</label>
+            <input type="password" name="confirmPassword" id="confirmPassword" autocomplete="off" placeholder="Reenter your password">
+            <small></small>
+        </div>
+        <div class="formFeild">
+            <input type="submit" value="Sign Up" class="submit">
+        </div>
+    </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
